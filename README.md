@@ -2,14 +2,36 @@
 
 ## Overview
 This project aims to create extensible components for creating puzzles, with satisfying ux.
-The first iteration supports orthogonal cell manipulation.
 
-Later iterations may support:
-edge manipulation
-vertice manipulation
-non-orthogonal tilings
+### Roadmap
 
-each of these, however, require a different approach to the underlying data structure, and more advanced input detection.
+#### 0.1
+- Clicky Boxes
+-- basic grid functionality
+-- scalable grid size
+-- tiles report click events
+-- tile properties easily accessible and assignable from parent component
+
+#### 0.2
+- Better clicky boxes
+-- encapsulate grid in a puzzle component
+-- consolidate styling options
+-- implement cellgroupings
+-- Think about cell traversal, implement some methods for it
+--- (getNeighborsInGroup, checkEdges, etc)
+--- ((ordinality enum?))
+-- automatically assign row and column groups
+
+#### 0.3
+- Logical clicky boxes
+
+-- Write POC logic to allow grid events to check conditions and alter affected tiles
+-- implement POC logic to check for a win condition
+
+
+
+#### 1.0
+- functional LITS puzzle
 
 # Getting Started with Create React App
 
