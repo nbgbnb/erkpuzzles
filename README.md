@@ -1,3 +1,16 @@
+# NBG's puzzle widget
+
+## Overview
+This project aims to create extensible components for creating puzzles, with satisfying ux.
+The first iteration supports orthogonal cell manipulation.
+
+Later iterations may support:
+edge manipulation
+vertice manipulation
+non-orthogonal tilings
+
+each of these, however, require a different approach to the underlying data structure, and more advanced input detection.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
