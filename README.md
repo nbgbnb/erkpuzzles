@@ -12,6 +12,8 @@ Clicky Boxes
 > - tiles report click events
 > - tile properties easily accessible and assignable from parent component
 
+--present--  
+
 #### 0.2
 Better clicky boxes
 > - encapsulate grid in a puzzle component
