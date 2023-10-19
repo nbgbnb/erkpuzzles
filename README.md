@@ -6,14 +6,14 @@ This project aims to create extensible components for creating puzzles, with sat
 ### Roadmap
 
 #### 0.1
-> Clicky Boxes
+Clicky Boxes
 > - basic grid functionality
 > - scalable grid size
 > - tiles report click events
 > - tile properties easily accessible and assignable from parent component
 
 #### 0.2
->  Better clicky boxes
+Better clicky boxes
 > - encapsulate grid in a puzzle component
 > - consolidate styling options
 > - Think about cell traversal, implement some methods for it
@@ -22,7 +22,7 @@ This project aims to create extensible components for creating puzzles, with sat
 > - automatically assign row and column groups
 
 #### 0.3
-> Logical clicky boxes
+Logical clicky boxes
 
 > - Write POC logic to allow grid events to check conditions and alter affected tiles
 > - implement POC logic to check for a win condition
@@ -30,7 +30,7 @@ This project aims to create extensible components for creating puzzles, with sat
 
 
 #### 1.0
-- functional LITS puzzle
+> functional LITS puzzle
 
 # Getting Started with Create React App
 
