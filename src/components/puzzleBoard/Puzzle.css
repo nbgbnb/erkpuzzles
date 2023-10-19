@@ -1,0 +1,76 @@
+/* FILEPATH: /C:/Users/Erick/Documents/DEV/PERSONAL/puzzles/src/components/puzzleBoard/Puzzle.css */
+
+:root {
+    --bg: #221a3a;
+    --primary-color: #b271da;
+    --secondary-color: #8b4da3;
+    --tertiary-color: #52339c;
+    --negative-color: #ff92a4;
+}
+
+
+
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.tertiary {
+    background-color: var(--tertiary-color);
+}
+.negative {
+    background-color: var(--negative-color);
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes breeze {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+.borderThick {
+    border: .4rem solid black;
+    border-radius: .5rem;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    margin: .125rem;
+    border: .25rem solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.tile:hover {
+    animation-name:breeze;
+    animation-duration:.2s;
+  }
+
+.tile:active {
+    animation-name:pop;
+    animation-duration:.2s;
+  }
