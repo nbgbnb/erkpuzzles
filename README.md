@@ -6,27 +6,26 @@ This project aims to create extensible components for creating puzzles, with sat
 ### Roadmap
 
 #### 0.1
-- Clicky Boxes
--- basic grid functionality
--- scalable grid size
--- tiles report click events
--- tile properties easily accessible and assignable from parent component
+> Clicky Boxes
+> - basic grid functionality
+> - scalable grid size
+> - tiles report click events
+> - tile properties easily accessible and assignable from parent component
 
 #### 0.2
-- Better clicky boxes
--- encapsulate grid in a puzzle component
--- consolidate styling options
--- implement cellgroupings
--- Think about cell traversal, implement some methods for it
---- (getNeighborsInGroup, checkEdges, etc)
---- ((ordinality enum?))
--- automatically assign row and column groups
+>  Better clicky boxes
+> - encapsulate grid in a puzzle component
+> - consolidate styling options
+> - Think about cell traversal, implement some methods for it
+> - (getNeighborsInGroup, checkEdges, etc)
+> - ((ordinality enum?))
+> - automatically assign row and column groups
 
 #### 0.3
-- Logical clicky boxes
+> Logical clicky boxes
 
--- Write POC logic to allow grid events to check conditions and alter affected tiles
--- implement POC logic to check for a win condition
+> - Write POC logic to allow grid events to check conditions and alter affected tiles
+> - implement POC logic to check for a win condition
 
 
 
